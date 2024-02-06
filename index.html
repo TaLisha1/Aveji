@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aveji</title>
+</head>
+<body class="page-body">
+    <header class="page-header">
+        <div class="page-header__wrapper wrapper">
+            <a class="page-header__logo">
+                <picture class="page-header__logo-image">
+                    <source media="(min-width: 1440px)" src="img/logo--desc.svg" width="100%">
+                    <img src="img/logo--mobile.svg" alt="Логотип" width="100%">
+                </picture>
+            </a>
+            <div class="overlay"></div>
+            <nav class="main-nav" data-nav>
+                <button class="main-nav__toggle" data-burger aria-label="Открыть меню" aria-expanded="false" type="button"><span class="burger-line"></span></button>
+                <div class="main-nav__list-wrapper main-nav--blackout">
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item">
+                            <a href="#" class="main-nav__link">О нас</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#" class="main-nav__link">Проекты</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#" class="main-nav__link">Материалы</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#" class="main-nav__link">Отзывы</a>
+                        </li>
+                    </ul>
+                    <a class="main-nav__phone-number" href="tel:+79999999999">+7 999 999 99 99</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-main">
+        
+        <section class="intro">
+            <div class="intro-wrapper wrapper">
+                <h1 class="intro__title">Эксклюзивная и&nbsp;нестандартная мебель для дома</h1>
+                <p class="intro__text">Мы&nbsp;можем произвести любую мебель для вашего проекта и&nbsp;найти производственное решение любой задумки.</p>
+                <a class="intro__link" href="#">ЗАКАЗАТЬ ПРОЕКТ</a>
+                <div class="intro__img-main">
+                    <img src="img/intro/intro--desc.png" alt="дизайн интерьера">
+                </div>
+                <!-- <picture class="intro__img-main">
+                    <source media="(min-width: 1024px)" srcset="img/intro/intro--desc.png">
+                    <img src="img/intro/intro--mob.png" alt="дезайн интерьера">
+                </picture> -->
+                <img class="intro__img-second" src="img/intro/intro(2)--desc.png" alt="дизайн интерьера" sizes="329px 493px">
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about-wrapper wrapper">
+                <h2 class="about__title">О компании</h2>
+                <span class="about__slogan">Более 5&nbsp;лет создаем мебель для вашего комфорта</span>
+                <p class="about__text-about about__text">Мы&nbsp;&mdash; команда профессионалов, которые могут произвести любую мебель для вашего проекта, а&nbsp;также найти производственное решение любой задумки.</p>
+                <p class="about__text-purpose about__text">Наша основная цель&nbsp;&mdash; реализовывать самые смелые задумки, и&nbsp;делать это качественно и&nbsp;аккуратно.</p>
+                <p class="about__text-materails about__text">В&nbsp;качестве материалов мы&nbsp;используем натуральные&nbsp;&mdash; стекло, дерево, бетон, камень, металл и&nbsp;эпоксидную смолу.</p>
+                <ul class="about__list">
+                    <li class="about__list-item">
+                        <h3 class="list-item__title">1 год</h3>
+                        <span class="list-item__text">гарантии на&nbsp;всю <br>продукцию</span>
+                    </li>
+                    <li class="about__list-item">
+                        <h3 class="list-item__title">300+</h3>
+                        <span class="list-item__text">выполненных <br>проектов</span>
+                    </li>
+                    <li class="about__list-item">
+                        <h3 class="list-item__title">15 дней</h3>
+                        <span class="list-item__text">срок производства</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="steps">
+            <div class="steps-wrapper wrapper">
+                <h2 class="steps__title">Как мы&nbsp;работаем</h2>
+                <span class="steps__text">Алгоритм работы с&nbsp;нами для удобства и&nbsp;понимания проекта</span>
+                <ul class="steps-list">
+                    <li class="steps-list__item">
+                        <h3 class="steps-list__title">Идея</h3>
+                        <p class="steps-list__text">Клиент приходит к&nbsp;нам с&nbsp;идеей. Это может быть изображение/ эскиз или другой референс. А&nbsp;мы&nbsp;думаем над тем, как это реализовать, делаем технические чертежи и&nbsp;предлагаем решения по&nbsp;материалам.</p>
+                    </li>
+                    <li class="steps-list__item">
+                        <h3 class="steps-list__title">Техническое задание</h3>
+                        <p class="steps-list__text">Клиент приходит к&nbsp;нам с&nbsp;идеей. Это может быть изображение/ эскиз или другой референс. А&nbsp;мы&nbsp;думаем над тем, как это реализовать, делаем технические чертежи и&nbsp;предлагаем решения по&nbsp;материалам.</p>
+                    </li>
+                    <li class="steps-list__item">
+                        <h3 class="steps-list__title">Коммерческое предложение</h3>
+                        <p class="steps-list__text">Предпочтительно используем натуральные материалы. Но&nbsp;любую смету можем оптимизировать, упростив материалы или конструктив. Сможем подстроиться под бюджет клиента и&nbsp;согласуем коммерческое предложение</p>
+                    </li>
+                    <li class="steps-list__item">
+                        <h3 class="steps-list__title">Подготовка рабочего проекта</h3>
+                        <p class="steps-list__text">Создадим рабочую документацию и&nbsp;чертежи. Это фундамент качественного производства. На&nbsp;этом этапе утверждаем с&nbsp;клиентом все габариты и&nbsp;материалы, чертежи и&nbsp;приступаем к&nbsp;производству.</p>
+                    </li>
+                    <li class="steps-list__item">
+                        <h3 class="steps-list__title steps-list__title--br">Производство и монтаж</h3>
+                        <p class="steps-list__text">Производство занимает от&nbsp;15&nbsp;рабочих дней, в&nbsp;зависимости от&nbsp;сложности и&nbsp;объёма. Монтажом тоже занимаемся самостоятельно. Ведь мы&nbsp;это сделаем быстро и&nbsp;аккуратно.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="projects-wrapper wrapper">
+                <h2 class="projects__title">Проекты</h2>
+                <ul class="projects__list">
+                    <li class="projects__item">
+                        <article class="card">
+                            <div class="card__img">
+                                <img src="img/projects/project-1.png" alt="тумба под телевизор">
+                            </div>
+                            <a href="#">
+                                <div class="card__desc">
+                                    <p class="card__text">
+                                        Тумба под телевизор
+                                    </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                        <line x1="11.8684" y1="2.18556e-08" x2="11.8684" y2="12" stroke="white"/>
+                                        <line x1="12" y1="0.5" y2="0.5" stroke="white"/>
+                                        <line x1="11.722" y1="0.985145" x2="0.985134" y2="11.722" stroke="white"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="projects__item">
+                        <article class="card">
+                            <div class="card__img">
+                                <img src="img/projects/project-2.png" alt="кухня">
+                            </div>
+                            <a href="#">
+                                <div class="card__desc">
+                                    <p class="card__text">
+                                        Кухня
+                                    </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                        <line x1="11.8684" y1="2.18556e-08" x2="11.8684" y2="12" stroke="white"/>
+                                        <line x1="12" y1="0.5" y2="0.5" stroke="white"/>
+                                        <line x1="11.722" y1="0.985145" x2="0.985134" y2="11.722" stroke="white"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="projects__item">
+                        <article class="card">
+                            <div class="card__img">
+                                <img src="img/projects/project-3.png" alt="гостинная">
+                            </div>
+                            <a href="#">
+                                <div class="card__desc">
+                                    <p class="card__text">
+                                        Гостинная
+                                    </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                        <line x1="11.8684" y1="2.18556e-08" x2="11.8684" y2="12" stroke="white"/>
+                                        <line x1="12" y1="0.5" y2="0.5" stroke="white"/>
+                                        <line x1="11.722" y1="0.985145" x2="0.985134" y2="11.722" stroke="white"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="projects__item">
+                        <article class="card">
+                            <div class="card__img">
+                                <img src="img/projects/project-4.png" alt="прихожая">
+                            </div>
+                            <a href="#">
+                                <div class="card__desc">
+                                    <p class="card__text">
+                                        Прихожая
+                                    </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                        <line x1="11.8684" y1="2.18556e-08" x2="11.8684" y2="12" stroke="white"/>
+                                        <line x1="12" y1="0.5" y2="0.5" stroke="white"/>
+                                        <line x1="11.722" y1="0.985145" x2="0.985134" y2="11.722" stroke="white"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="projects__item">
+                        <article class="card">
+                            <div class="card__img">
+                                <img src="img/projects/project-5.png" alt="спальня">
+                            </div>
+                            <a href="#">
+                                <div class="card__desc">
+                                    <p class="card__text">
+                                        Спальня
+                                    </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                        <line x1="11.8684" y1="2.18556e-08" x2="11.8684" y2="12" stroke="white"/>
+                                        <line x1="12" y1="0.5" y2="0.5" stroke="white"/>
+                                        <line x1="11.722" y1="0.985145" x2="0.985134" y2="11.722" stroke="white"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="projects__item">
+                        <article class="card">
+                            <div class="card__img">
+                                <img src="img/projects/project-6.png" alt="комод">
+                            </div>
+                            <a href="#">
+                                <div class="card__desc">
+                                    <p class="card__text">
+                                        Комод
+                                    </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                        <line x1="11.8684" y1="2.18556e-08" x2="11.8684" y2="12" stroke="white"/>
+                                        <line x1="12" y1="0.5" y2="0.5" stroke="white"/>
+                                        <line x1="11.722" y1="0.985145" x2="0.985134" y2="11.722" stroke="white"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="reviews-wrapper wrapper">
+                <h2 class="reviews__title">Отзывы</h2>
+                <ul class="reviews__list">
+                    <li class="reviews__item">
+                        <article class="review-card">
+                            <svg class="review-card__icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M16.6383 5V17.3183C16.6383 26.825 10.42 33.2683 1.66667 35L0.00833333 31.415C4.06167 29.8867 6.66667 25.3517 6.66667 21.6667H0V5H16.6383ZM40 5V17.3183C40 26.825 33.7533 33.27 25 35L23.34 31.415C27.395 29.8867 30 25.3517 30 21.6667H23.3617V5H40Z" fill="#212529"/>
+                            </svg>
+                            <h3 class="review-card__title">Игорь Антонов</h3>
+                            <p class="review-card__text">Обратилась к&nbsp;Aveji по&nbsp;рекомендации. Команда сразу поняла, какой дизайн я&nbsp;хочу. Предоставили несколько вариантов и&nbsp;в&nbsp;течение недели сделали наброски. Итог понравился, все на&nbsp;высшем уровне.</p>
+                        </article>
+                    </li>
+                    <li class="reviews__item">
+                        <article class="review-card">
+                            <svg class="review-card__icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M16.6383 5V17.3183C16.6383 26.825 10.42 33.2683 1.66667 35L0.00833333 31.415C4.06167 29.8867 6.66667 25.3517 6.66667 21.6667H0V5H16.6383ZM40 5V17.3183C40 26.825 33.7533 33.27 25 35L23.34 31.415C27.395 29.8867 30 25.3517 30 21.6667H23.3617V5H40Z" fill="#212529"/>
+                            </svg>
+                            <h3 class="review-card__title">Ольга Иванова</h3>
+                            <p class="review-card__text">После пары заказов у&nbsp;компании Aveji убедилась, что за&nbsp;мебелью теперь только к&nbsp;ним. Абсолютно любые решения, в&nbsp;любых размерах и&nbsp;форм-факторе, то&nbsp;что нужно!</p>
+                        </article>
+                    </li>
+                    <li class="reviews__item">
+                        <article class="review-card">
+                            <svg class="review-card__icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M16.6383 5V17.3183C16.6383 26.825 10.42 33.2683 1.66667 35L0.00833333 31.415C4.06167 29.8867 6.66667 25.3517 6.66667 21.6667H0V5H16.6383ZM40 5V17.3183C40 26.825 33.7533 33.27 25 35L23.34 31.415C27.395 29.8867 30 25.3517 30 21.6667H23.3617V5H40Z" fill="#212529"/>
+                            </svg>
+                            <h3 class="review-card__title">Аркадий Макаров</h3>
+                            <p class="review-card__text">Aveji&nbsp;&mdash; настоящие профессионалы своего дела. Быстро поняли мою задумку, сделали дизайн, согласовали и&nbsp;изготовили мебель. А&nbsp;потом еще и&nbsp;бесплатно все собрали на&nbsp;месте. Большое спасибо!</p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="order">
+            <div class="order__wrapper wrapper">
+                <div class="order__img">
+                    <img class="order__image" src="img/form/bilal-mansuri-yJ78NE83YH8-unsplash 1.png" alt="интерьер" sizes="562px 566px">
+                </div>
+                <div class="form">
+                    <h2 class="form__title">Хотите заказать проект?</h2>
+                    <p class="form__text">Оставьте заявку, и мы вам перезвоним</p>
+                    <form class="form__form" autocomplete="on" name="form">
+                        <div class="form__input">
+                            <input class="input" type="text" name="name" placeholder="Имя" minlength="3" required>
+                            <!-- <label class="label" for="text">Имя</label> -->
+                        </div>
+                        <div class="form__input">
+                            <input class="input" type="email" name="email" placeholder="E-mail" required>
+                            <!-- <label class="label" for="email">E-mail</label> -->
+                        </div>
+                        <div class="form__input">
+                            <input class="input" type="tel" name="tel" placeholder="Телефон" pattern="^\+7[1-9]{10}$" required>
+                            <!-- <label class="label" for="tel">Телефон</label> -->
+                        </div>
+                        <button type="submit" class="form__button">Отправить заявку</button>
+                    </form>
+                    <ul class="form__list">
+                        <li class="form__item">
+                            <a href="#" class="form__link" target="_blank">
+                                <img src="img/form/app-store.png" alt="apple-store">
+                            </a>
+                        </li>
+                        <li class="form__item">
+                            <a href="#" class="form__link" target="_blank">
+                                <img src="img/form/google-play.png" alt="google-play">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="page-footer footer">
+        <div class="footer__wrapper wrapper">
+            <div class="footer__social">
+                <ul class="social__list footer__list">
+                    <li class="social__item"><a class="social__link footer-link" href="#">Вконтакте</a></li>
+                    <li class="social__item"><a class="social__link footer-link" href="#">Телеграм</a></li>
+                </ul>
+            </div>
+            <div class="footer__policy">
+                <ul class="policy__list footer__list">
+                    <li class="policy__item">
+                        <a href="#" class="policy__link footer-link">Политика конфеденциальности</a>
+                    </li>
+                    <li class="policy__item policy__pay">
+                        <a href="#" class="policy__link footer-link">Оплата и доставка</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__info">
+                <ul class="info__list footer__list">
+                    <li class="info__item">&copy;&nbsp;2023 Aveji</li>
+                    <li class="info__item">Все права защищены</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
